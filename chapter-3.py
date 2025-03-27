@@ -48,6 +48,7 @@ woeld.sort()
 print(woeld)
 woeld.sort()
 print(woeld)
+# 3 - 10
 mega = ['missisipi','appalachiens','victor','martin luther','king jr', 'father wade','father wade king jr']
 popped_mega = mega.pop(6)
 mega.sort()
@@ -59,3 +60,4 @@ print(mega[1])
 print(mega[2])
 print(mega[3])
 print(mega[4])
+# 3-11: Multiple errors have already been made
