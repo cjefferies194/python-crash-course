@@ -45,3 +45,62 @@ elif play := '100':
 else:
 	print('Lord', username) 
 #5-7
+
+food = ['banana', 'apple', 'pineapple']
+if 'banana' in food:
+	print('Bananas are good')
+if 'blueberries' in food:
+	print('Blue is for blueberries')
+if 'apple' in food:
+	print('Appels')
+#5-8
+
+users = []
+if 'Jaden' in users:
+	print('Hello Jaden, would you like to write some code today?')
+if 'Admin' in users:
+	print('Status is green, little less comments then we would like!')
+if 'JJ' in users:
+	print('Hello JJ, would you like to write some code today?')
+else:
+	print('We need to call a meeting as we are out of users')
+#5-10
+
+oldusers = ['jonathin', 'jonathan', 'J']
+newusers = ['J', 'jonathin', 'joohn']
+if newusers in oldusers:
+	print('You need to pick a different nickname')
+
+#5-11
+
+
+digits = ['1', '2', '3', '4', '5' , '6', '7', '8', '9']
+if '1' in digits:
+	print('1st')
+if '2' in digits:
+	print('2nd')
+
+if '3' in digits:
+	print('3rd')
+
+if '4' in digits:
+	print('4th')
+if '5' in digits:
+	print('5th')
+
+if '6' in digits:
+	print('6th')
+
+if '7' in digits:
+	print('7th')
+
+if '8' in digits:
+	print('8th')
+
+if '9' in digits:
+	print('9th')
+
+
+
+
+
