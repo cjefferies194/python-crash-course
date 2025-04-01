@@ -6,99 +6,153 @@ py = ['java' ,'python', 'bedrock']
 pytrue = ['java', 'python']
 if py not in pytrue:
 	print (f'{py[2]} is not a coding language')
-number = ['107']
-if number !=108:
+
+numbers = [107]
+if numbers !=108:
 	print('Incorrect')
-number.append(108)
-number.pop(0)
-if number := 108:
+
+numbers.append(108)
+numbers.pop(0)
+if numbers == 108:
 	print('Correct')
+if test.lower() == True:
+	print('true')
+
+if numbers[0] <= 102:
+	print('Less than')
+
+if numbers[0] >= 102:
+	print('Greater than')
+
+if len(numbers):
+	print('numbers count:', len(numbers))
+	print(numbers[0])
+
+t = ['true']
+f = ['false']
+if t[0] or f[0]:
+	print('true')
+else:
+	print('false')
+
+if t and not f:
+	print('T does not equal F')
+else:
+	print('T equals F')
+
+if t is f:
+	print(id(t))
+else:
+	print(id(f))
+
+if t == f:
+	print('true is false')
+else:
+	print('that\'s what i thought')
+
 #5-3 - 5-5
-buff = 'small', 'medium', 'large', 'huge'
-small = 'small'
-medium = 'medium'
-large = 'large'
-huge = 'huge'
-if buff := small:
-	print('1')
-elif buff := medium:
-	print('5')
-elif buff := large:
-	print('10')
-elif buff := huge:
-	print('1')
+
+alien_colors = ['red', 'blue', 'green']
+
+if 'green' in alien_colors :
+	print('Player earned 1 points')
+if 'blue' in alien_colors:
+	print('Player earned 5 points')
+if 'red' in alien_colors:
+	print('Player earned 10 points')
 else:
 	print('Fail, please report this bug')
+
 #5-6
-username = 'Dan'
-play = '1'
-if play := '1':
-	print('Adventurer', username)
-elif play := '10':
-	print('Knight', username)
-elif play := '20':
-	print('King',)
-elif play := '50':
-	print('Overlord', username)
-elif play := '100':
-	print('Siegemaster', username)
+
+#life = input('How old are you?\n')
+life = 1
+if life in range(1, 3):
+	print('baby')
+elif life in range(3, 5):
+	print('toddler')
+elif life in range(5, 13):
+	print ('kid')
+elif life in range(13, 18):
+	print('teenager')
+elif life in range(18, 63):
+	print('adult')
+elif life in range(63, 131):
+	print('elder')
 else:
-	print('Lord', username) 
+	print('error250')
+	raise StopIteration
+
+
+
+
+
 #5-7
 
 food = ['banana', 'apple', 'pineapple']
 if 'banana' in food:
 	print('Bananas are good')
+
 if 'blueberries' in food:
 	print('Blue is for blueberries')
+
 if 'apple' in food:
 	print('Appels')
+
+if 'pineapple' in food:
+	print('I also like pineapples')
+
+if 'pineapple' and 'banana' in food:
+	print('No putting bananas on pizza!!!!')
+
+
 #5-8
 
-users = []
-if 'Jaden' in users:
-	print('Hello Jaden, would you like to write some code today?')
-if 'Admin' in users:
-	print('Status is green, little less comments then we would like!')
-if 'JJ' in users:
-	print('Hello JJ, would you like to write some code today?')
-else:
-	print('We need to call a meeting as we are out of users')
+users = ['Jaden', 'Admin', 'J', 'Jenethen', 'Jon']
+for user in users:
+	if user == 'Admin':
+		print('Hello Admin, would you like to check the reports?')
+	else:
+		print(f'Hello {user.title()} would you like to write some code today ')
+
+
+
+
+
+
 #5-10
 
-oldusers = ['jonathin', 'jonathan', 'J']
-newusers = ['J', 'jonathin', 'joohn']
-if newusers in oldusers:
-	print('You need to pick a different nickname')
+oldusers = users
+newusers = ['J', 'Admin', 'Jon', 'JoonTheBoi', 'lezgo47']
 
+for nuser in newusers:
+	if nuser.lower() in [user.lower() for user in oldusers]:
+		print(f'{nuser} has been taken, i am sorry' )
+	else:
+		print(f'Welcome {nuser}')
 #5-11
 
 
 digits = ['1', '2', '3', '4', '5' , '6', '7', '8', '9']
-if '1' in digits:
-	print('1st')
-if '2' in digits:
-	print('2nd')
+squares = [int(digit)**2 for digit in digits] 
+print(squares)
 
-if '3' in digits:
-	print('3rd')
 
-if '4' in digits:
-	print('4th')
-if '5' in digits:
-	print('5th')
 
-if '6' in digits:
-	print('6th')
+for digit in digits: 
+	if digit == '1':
+		print('1st')
 
-if '7' in digits:
-	print('7th')
+	elif '2' == digit:
+		print('2nd')
 
-if '8' in digits:
-	print('8th')
+	elif '3' == digit:
+		print('3rd')
 
-if '9' in digits:
-	print('9th')
+	else: 
+		print(f'{digit}th')
+
+
 
 
 
