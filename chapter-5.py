@@ -64,7 +64,7 @@ else:
 	print('Fail, please report this bug')
 
 #5-6
-
+for person in people:
 #life = input('How old are you?\n')
 life = 1
 if life in range(1, 3):
