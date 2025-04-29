@@ -64,7 +64,7 @@ else:
 	print('Fail, please report this bug')
 
 #5-6
-for person in people:
+
 #life = input('How old are you?\n')
 life = 1
 if life in range(1, 3):
@@ -143,14 +143,14 @@ for digit in digits:
 	if digit == '1':
 		print('1st')
 
-	elif '2' == digit:
+	elif '2' == digits:
 		print('2nd')
 
-	elif '3' == digit:
+	elif '3' == digits:
 		print('3rd')
 
 	else: 
-		print(f'{digit}th')
+		print(f'{digit}')
 
 
 
