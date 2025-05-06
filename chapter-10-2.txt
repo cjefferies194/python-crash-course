@@ -1,0 +1,9 @@
+Chapter 2:Variables
+Chapter 3:Lists
+Chapter 4:Working with Lists
+Chapter 5:If Statements
+Chapter 6:Dictionaries
+Chapter 7:User Input/While Loops
+Chapter 8:Functions
+Chapter 9:Classes
+Chapter 10:Files
